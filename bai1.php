@@ -5,10 +5,10 @@ $txt = 0;
 for ($i=0; $i<100; $i++){
 $txt++;
 if($txt % 3 == 0 && $txt % 5 ==0)
-echo " FizzBuzz";
+echo " FizzBuzz ";
     else if($txt % 3 == 0)
-    echo " Fizz";
+    echo " Fizz ";
     else if($txt % 5 == 0)
-    echo " Buzz";
+    echo " Buzz ";
     else echo $txt." ";
 }
